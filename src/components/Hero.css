@@ -1,0 +1,222 @@
+/* Hero Section Container */
+.zubuz-hero-section {
+  position: relative;
+  overflow: hidden;
+  padding: 120px 0;
+}
+
+/* Hero Content */
+.zubuz-hero-content {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.zubuz-hero-content h1 {
+  font-size: 80px;
+  letter-spacing: -1px;
+  line-height: 1.2em;
+  margin-bottom: 24px;
+  position: relative;
+  z-index: 2;
+}
+
+.zubuz-hero-content p {
+  font-size: 21px;
+  line-height: 30px;
+  margin-bottom: 24px;
+}
+
+.zubuz-title-shape {
+  position: absolute;
+  top: -40px;
+  right: -20px;
+  z-index: 1;
+}
+
+.zubuz-title-shape img {
+  max-width: 500px;
+  height: auto;
+}
+
+/* Subscribe Form Section */
+.zubuz-extara-mt {
+  margin-top: 45px;
+}
+
+.zubuz-subscribe-three {
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.zubuz-subscribe-three form {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.zubuz-subscribe-three input {
+  width: 100%;
+  height: 60px;
+  padding: 0 160px 0 60px;
+  border: 1px solid #e5e7e8;
+  border-radius: 30px;
+  font-size: 16px;
+}
+
+.zubuz-input-email {
+  position: absolute;
+  left: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Subscribe Button */
+.zubuz-subscription-btn {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  height: 50px;
+  padding: 0 30px;
+  border-radius: 25px;
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.zubuz-subscription-btn:hover {
+  background: var(--primary-color-dark);
+}
+
+/* Feature List */
+.zubuz-icon-list {
+  margin-top: 20px;
+}
+
+.zubuz-icon-list ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+}
+
+.zubuz-icon-list li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  color: #666;
+}
+
+/* Hero Images Section */
+.zubuz-border-btoom {
+  margin-top: 60px;
+  position: relative;
+}
+
+.zubuz-hero-thumb3 {
+  position: relative;
+  text-align: center;
+}
+
+/* Floating Cards */
+.zubuz-hero-thumb-card1,
+.zubuz-hero-thumb-card2,
+.zubuz-hero-thumb-card3 {
+  position: absolute;
+  animation: float-animation 6s ease-in-out infinite;
+}
+
+.zubuz-hero-thumb-card1 {
+  left: 0;
+  top: 20%;
+}
+
+.zubuz-hero-thumb-card2 {
+  right: 0;
+  top: 40%;
+  animation-delay: 1s;
+}
+
+.zubuz-hero-thumb-card3 {
+  left: 20%;
+  bottom: 10%;
+  animation-delay: 2s;
+}
+
+/* Animations */
+@keyframes float-animation {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/* Responsive Styles */
+@media (max-width: 1400px) {
+  .zubuz-hero-content h1 {
+    font-size: 56px;
+  }
+}
+
+@media (max-width: 991px) {
+  .zubuz-hero-section {
+    padding: 80px 0;
+  }
+
+  .zubuz-extara-mt {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .zubuz-hero-content h1 {
+    font-size: 40px;
+  }
+
+  .zubuz-hero-content p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .zubuz-subscribe-three input {
+    padding: 0 120px 0 50px;
+    height: 50px;
+  }
+
+  .zubuz-subscription-btn {
+    padding: 0 20px;
+  }
+
+  .zubuz-icon-list ul {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .zubuz-title-shape {
+    top: -20px;
+    right: -10px;
+  }
+
+  .zubuz-title-shape img {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 479px) {
+  .zubuz-hero-content h1 {
+    font-size: 40px;
+  }
+
+  .zubuz-subscribe-three input {
+    padding: 0 100px 0 45px;
+  }
+}
