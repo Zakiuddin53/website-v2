@@ -1,0 +1,116 @@
+.zubuz-footer-section {
+  padding: 30px 0;
+  background: #f8f9fa;
+}
+
+.zubuz-footer-textarea {
+  margin-bottom: 40px;
+}
+
+.zubuz-footer-textarea img {
+  max-width: 180px;
+  margin-bottom: 20px;
+}
+
+.zubuz-footer-textarea p {
+  color: #6b7177;
+  margin-bottom: 25px;
+}
+
+.zubuz-subscribe-one {
+  position: relative;
+}
+
+.zubuz-subscribe-one input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+}
+
+.zubuz-subscription-btn {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  padding: 10px 20px;
+  background: #4a6cf7;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.zubuz-footer-menu {
+  margin-bottom: 30px;
+}
+
+.zubuz-footer-title p {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.zubuz-footer-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.zubuz-footer-menu ul li {
+  margin-bottom: 12px;
+}
+
+.zubuz-footer-menu ul li a {
+  color: #6b7177;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.zubuz-footer-menu ul li a:hover {
+  color: #4a6cf7;
+}
+
+.zubuz-footer-bottom {
+  margin-top: 50px;
+  padding-top: 30px;
+  border-top: 1px solid #e5e5e5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.zubuz-social-icon ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.zubuz-social-icon ul li {
+  margin-right: 15px;
+}
+
+.zubuz-social-icon ul li a {
+  color: #6b7177;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.zubuz-social-icon ul li a:hover {
+  color: #4a6cf7;
+}
+
+.zubuz-copywright {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .zubuz-footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .zubuz-social-icon {
+    margin-bottom: 20px;
+  }
+}
